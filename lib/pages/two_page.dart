@@ -36,7 +36,9 @@ class TwoPage extends StatelessWidget {
                 "Rating: ${post.rating.toString()}",
                 style: const TextStyle(fontSize: 18),
               ),
-              Text(post.description)
+              Text(post.description),
+              Text(post.rating.count.toString()),
+              Text(post.rating.rate.toString()),
             ],
           ),
         ),
